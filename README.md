@@ -30,12 +30,10 @@ Data used in this project:
 
 [Md_water_services_data.xlsx](https://github.com/lisaogeya/Visualizing_the_currents_of_change_in_Maji_Ndogo/blob/main/Md_water_services_data.xlsx)
 
-DATA MODELLING
-Power BI automatically connects related tables and derived relationships
-Automatically derived relationships are adjusted to remove and replace unwanted relationships within the model.
-NB:INSERT THE E-R DIAGRAM OF POWER BI RELATIONSHIP  VS YOURS.
-Meaning umetoa some of the unwanted relationships za power bi.
-SYNTAX:
+## Data Modelling
+
+- Automatically derived relationships are adjusted to remove and replace unwanted relationships within the model.
+
 Adjusted model                            |                    Auto-model
-:--------------------------------------: | :------------------------------------:        NB:These lines should be equal
-![]()                                               |      ![]()
+:--------------------------------------:  | :----------------------------------------:        
+![]()                                     |      ![]()
