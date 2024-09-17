@@ -34,6 +34,6 @@ Data used in this project:
 
 - Automatically derived relationships are adjusted to remove and replace unwanted relationships within the model.
 
-Adjusted model                            |                    Auto-model
+Auto model                            |                    Adjusted model
 :----------------------------------------:| :----------------------------------------:        
-![](adjusted_model.png)                   |      ![](auto_model.png)
+![](auto_model.png)                   |      ![](adjusted_model.png)
