@@ -37,3 +37,12 @@ Data used in this project:
 Auto model                            |                    Adjusted model
 :----------------------------------------:| :----------------------------------------:        
 ![](auto_model.png)                   |      ![](adjusted_model.png)
+
+- In the locations table. None of the column names (or headers) were imported correctly. So we changed that to enable relationships be established.
+  
+- In the queue_composition table, removing the first column establishes the relationships.
+- In the water_source_related_crimes table, removing the first column to connect the table to the rest of the model.
+- Linked water_source_related_crime table to location table using location_id .
+- This model is a star schema. There are 6 dimension tables and a fact table, visits.
+
+## Analysis and Visualizations
