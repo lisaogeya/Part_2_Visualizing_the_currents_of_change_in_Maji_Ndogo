@@ -28,7 +28,7 @@ This Power BI visualization explores..........
 Downloaded the csv files from ALX Explore AI Course and extracted it into power bi for cleaning, analysis and visualization.
 Data used in this project:
 
-[Md_water_services_data.xlsx](https://github.com/lisogeya/Visualizing_the_currents_of_change_in_Maji_Ndogo/blame/main/Md_water_services_data.xlsx)
+[Md_water_services_data.xlsx](https://https://github.com/lisaogeya/Visualizing_the_currents_of_change_in_Maji_Ndogo/blob/main/Md_water_services_data.xlsx)
 
 DATA MODELLING
 Power BI automatically connects related tables and derived relationships
