@@ -43,6 +43,9 @@ Auto model                            |                    Adjusted model
 - In the queue_composition table, removing the first column establishes the relationships.
 - In the water_source_related_crimes table, removing the first column to connect the table to the rest of the model.
 - Linked water_source_related_crime table to location table using location_id .
-- This model is a star schema. There are 6 dimension tables and a fact table, visits.
+- In this model:
+   - There are 4 dimension tables to the visits fact table.
+   - Project_progress and water_source_related_crimes are fact tables on their on.
+- Thus the model is a multi-star schema.
 
 ## Analysis and Visualizations
