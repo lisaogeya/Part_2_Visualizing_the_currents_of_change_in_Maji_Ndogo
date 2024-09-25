@@ -49,3 +49,5 @@ Auto model                            |                    Adjusted model
 - Thus the model is a multi-star schema.
 
 ## Analysis and Visualizations
+**National Overview of distribution of water sources**
+![]
