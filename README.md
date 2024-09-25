@@ -30,6 +30,7 @@ Data used in this project:
 
 [Md_water_services_data.xlsx](https://github.com/lisaogeya/Visualizing_the_currents_of_change_in_Maji_Ndogo/blob/main/Md_water_services_data.xlsx)
 
+
 ## Data Modelling
 
 - Automatically derived relationships are adjusted to remove and replace unwanted relationships within the model.
@@ -48,6 +49,11 @@ Auto model                            |                    Adjusted model
    - Project_progress and water_source_related_crimes are fact tables on their on.
 - Thus the model is a multi-star schema.
 
+## Data Transformation
+- In the visits table, new columns, day_name and hour are extracted from the time_of_record column
+
 ## Analysis and Visualizations
 **National Overview of distribution of water sources**
-![]
+![](National_distr_water_sources.png)
+**Insights**
+- 
