@@ -54,6 +54,6 @@ Auto model                            |                    Adjusted model
 
 ## Analysis and Visualizations
 **National Overview of distribution of water sources**
-![](National_distr_water_sources.png)
+![](nationall_page.png)
 **Insights**
 - 
