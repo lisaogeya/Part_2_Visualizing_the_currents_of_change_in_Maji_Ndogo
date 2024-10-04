@@ -61,4 +61,4 @@ Auto model                            |                    Adjusted model
 - 
 
 **Average Queue times**
-![](average_queues)
+![](average_queues.png)
