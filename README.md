@@ -2,7 +2,9 @@
 
 ## Introduction
 
-This Power BI visualization explores..........
+This project aims to provide a comprehensive analysis of water access and source utilization in the rural regions of Maji Ndogo. By visualizing queue compositions of men, women, and children over different days and across various provinces, we can understand how different demographics are accessing these vital resources. Using Power BI, we explore water usage patterns, highlighting the gender distribution in queues at multiple water sources, including wells, rivers, and shared taps. This approach offers insights into potential disparities in access and allows us to identify days with longer queues and higher demand.
+
+Beyond queue analysis, the project delves into environmental factors, specifically water source pollution across the provinces. By tracking pollution levels, we can identify sources that require immediate attention and repair.Through these visualizations, stakeholders can make informed decisions and allocate the necessary budget for maintaining and improving water access infrastructure.
 
 
 
@@ -10,12 +12,12 @@ This Power BI visualization explores..........
 
 
 ## Problem Statement
-1. A
-2. B
-3. C
-4. d
-5. e
-6. f
+1. Which days of the week have consistently longer queues compared to weekends?
+2. What is the percentage of children in both long and short queue days, and how is this related to the presence of women in the queue?
+3. What is the average composition of queues on various days?
+4. What are the average queue times per hour of the day?
+5. Which day of the week has the highest queue times overall?
+   
 
 
 ## Power BI concepts demonstrated
@@ -57,3 +59,6 @@ Auto model                            |                    Adjusted model
 ![](national_distr_pg.png)
 **Insights**
 - 
+
+**Average Queue times**
+![](average_queues)
