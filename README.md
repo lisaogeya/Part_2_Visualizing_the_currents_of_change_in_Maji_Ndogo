@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project aims to provide a comprehensive analysis of water access and source utilization in the regions of Maji Ndogo. By visualizing queue compositions of men, women, and children over different days and across various provinces, we can understand how different demographics are accessing these vital resources. Using Power BI, we explore water usage patterns, highlighting the gender distribution in queues at multiple water sources, including wells, rivers, and shared taps. This approach offers insights into potential disparities in access and allows us to identify days with longer queues and higher demand.
+This project, a continuation of [Maji Ndogo's past](https://github.com/lisaogeya/Gender-Inequality-IN-Water-Access) , aims to provide a comprehensive analysis of water access and source utilization in the regions of Maji Ndogo. By visualizing queue compositions of men, women, and children over different days and across various provinces, we can understand how different demographics are accessing these vital resources. Using Power BI, we explore water usage patterns, highlighting the gender distribution in queues at multiple water sources, including wells, rivers, and shared taps. This approach offers insights into potential disparities in access and allows us to identify days with longer queues and higher demand.
 
 Beyond queue analysis, the project delves into environmental factors, specifically water source pollution across the provinces. By tracking pollution levels, we can identify sources that require immediate attention and repair.Through these visualizations, stakeholders can make informed decisions and allocate the necessary budget for maintaining and improving water access infrastructure.
 
@@ -52,7 +52,11 @@ Auto model                            |                    Adjusted model
 - Thus the model is a multi-star schema.
 
 ## Data Transformation
-- In the visits table, new columns, day_name and hour are extracted from the time_of_record column
+In the visits table:
+- Use first columns as headers as it's not imported correctly. 
+- New columns, day_name and hour are extracted from the time_of_record column.
+
+In queue composition
 
 ## Analysis and Visualizations
 **National Overview of distribution of water sources**
@@ -62,3 +66,4 @@ Auto model                            |                    Adjusted model
 
 **Average Queue times**
 ![](average_queues.png)
+
