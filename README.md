@@ -52,18 +52,23 @@ Auto model                            |                    Adjusted model
 - Thus the model is a multi-star schema.
 
 ## Data Transformation
-In the visits table:
-- Use first columns as headers as it's not imported correctly. 
-- New columns, day_name and hour are extracted from the time_of_record column.
+- In the locations table. None of the column names (or headers) were imported correctly. So that was changed  to enable relationships be established.
+- In the queue_composition table, removing the first column establishes the relationships.
+- In the water_source_related_crimes table, first column was removed to connect the table to the rest of the model.
+- Linked water_source_related_crime table to location table using loc_id and location_id respectively.
 
-In queue composition
 
 ## Analysis and Visualizations
 **National Overview of distribution of water sources**
 ![](national_distr_pg.png)
 **Insights**
-- 
+- Shared taps is the most popular popular water source serving 43% of the population in Maji Ndogo, rivers being the least popular catering to 8% of the population.
+  
 
 **Average Queue times**
 ![](average_queues.png)
-
+**Insights**
+- In Amanzi the average queue is mostly made up of men although on the national level it is mostly women.
+- On Saturdays, queues across Maji Ndogo are 40% men and on Mondays, 71% women.
+- Saturday has the highest queue times overall while Sunday has the lowest queue times.
+- On weekdays Monday has the longest queues while Wednesday has the shortest queues.
