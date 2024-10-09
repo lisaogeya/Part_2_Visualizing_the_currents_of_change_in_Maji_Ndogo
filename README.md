@@ -1,4 +1,5 @@
 # Visualizing the currents of change in Maji Ndogo
+![](queues_mn.webp)
 
 ## Introduction
 
